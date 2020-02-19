@@ -23,7 +23,7 @@ def getHwnd():
     if (hwnd):
         rect = win32gui.GetWindowRect(hwnd)
         return rect[0],rect[1]
-    return None
+    return None，None
  
  
 def key_down(key):
